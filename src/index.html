@@ -62,6 +62,30 @@
     </nav>
   </div>
   
+  <!-- Landing section -->
+  <div class="page-header clear-filter vc">
+    <div class="container text-center content">
+      <div class="hidden-sm-down clearfix">
+        <img src="img/logo.png" height="120">
+      </div>
+      <h2>MAYGEN library</h2>
+      <p>
+        Open Source Java library
+      </p>
+      <p>
+        <a target="about" class="scroll btn btn-outline-success btn-white">
+         <i class="fa fa-play"></i> About
+        </a>
+        <span class="hidden-md-up">
+         <br><br>
+        </span>
+        <a target="license" class="scroll btn btn-outline-warning btn-white">
+         <i class="fa fa-download"></i> License
+        </a>
+      </p>
+    </div>
+  </div>
+
   <!-- About section -->
   <section class="white">
       <div id="about" class="container">
@@ -70,7 +94,7 @@
             The <span class="text-primary">MAYGenerator Java library (MAYGEN)</span> is a Java library.
           </h5>
           <div class="row justify-content-center ccard">
-            <div class="col-md-4 col-sm-12 text-center">
+            <div class="col-md-12 col-sm-12 text-center">
 <h2 id="introduction">Introduction</h2>
 <p>MAYGEN is an open source chemical structure generator based on the orderly graph generation method. The principles of this method were outlined in the <a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00529-9">MAYGEN article</a>[1].
 MAYGEN takes a molecular formula (such as C<sub>10</sub>H<sub>16</sub>O) as input and generates all constitutional isomers of this formula, i. e. all non-isomorphic molecules that can be constructed with the set of atoms in the input formula. For the case of C<sub>10</sub>H<sub>16</sub>O, for example, there are 452,458 non-identical molecules. Here are 12 out of those.</p>
@@ -153,7 +177,7 @@ java -jar MAYGEN-1.8.jar -f N(val=4)6H6 -setElements -v -t -o C:<span class="hlj
 <p><img src="https://camo.githubusercontent.com/97fa03cac759a772255b93c64ab1c9f76a103681/68747470733a2f2f7777772e796f75726b69742e636f6d2f696d616765732f796b6c6f676f2e706e67" alt="YourKit"></p>
 <p>The developer uses YourKit to profile and optimise code.</p>
 <p>YourKit supports open source projects with its full-featured Java Profiler. YourKit, LLC is the creator of YourKit Java Profiler and YourKit .NET Profiler, innovative and intelligent tools for profiling Java and .NET applications.</p>
-<p><img src="https://github.com/MehmetAzizYirik/HMD/blob/master/cdk.png" alt="cdk"></p>
+<p><img src="resources/cdk.png" alt="cdk"></p>
 <p>This project relies on the Chemistry Development Project (CDK), hosted under <a href="http://cdk.github.io/">CDK GitHub</a>. Please refer to these pages for updated information and the latest version of the CDK. CDK&#39;s API documentation is available though our <a href="http://cdk.github.io/cdk/">Github site</a>.</p>
 <h2 id="references">References</h2>
 <p>1- Yirik, M.A., Sorokina, M. &amp; Steinbeck, C. MAYGEN: an open-source chemical structure generator for constitutional isomers based on the orderly generation principle. J Cheminform 13, 48 (2021). <a href="https://doi.org/10.1186/s13321-021-00529-9">https://doi.org/10.1186/s13321-021-00529-9</a></p>
