@@ -1,73 +1,51 @@
-Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module build failed: Error: ENOENT: no such file or directory, open 'C:\Users\UX502030\Documents\project java\MAYGener  ator.github.io\src\index.html':
-  Error: ENOENT: no such file or directory, open 'C:\Users\UX502030\Documents\project java\MAYGenerator.github.io\src\in  dex.html'
-  
-  - compiler.js:79 
-    [MAYGenerator.github.io]/[html-webpack-plugin]/lib/compiler.js:79:16
-  
-  - Compiler.js:300 
-    [MAYGenerator.github.io]/[webpack]/lib/Compiler.js:300:11
-  
-  - Compiler.js:510 
-    [MAYGenerator.github.io]/[webpack]/lib/Compiler.js:510:14
-  
-  - Tapable.js:202 next
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:202:11
-  
-  - CachePlugin.js:78 Compiler.<anonymous>
-    [MAYGenerator.github.io]/[webpack]/lib/CachePlugin.js:78:5
-  
-  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:206:13
-  
-  - Compiler.js:507 
-    [MAYGenerator.github.io]/[webpack]/lib/Compiler.js:507:11
-  
-  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:195:46
-  
-  - Compilation.js:683 
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:683:19
-  
-  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:195:46
-  
-  - Compilation.js:674 
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:674:11
-  
-  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:195:46
-  
-  - Compilation.js:669 
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:669:10
-  
-  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:195:46
-  
-  - Compilation.js:665 
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:665:9
-  
-  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:195:46
-  
-  - Compilation.js:608 Compilation.seal
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:608:8
-  
-  - Compiler.js:504 
-    [MAYGenerator.github.io]/[webpack]/lib/Compiler.js:504:17
-  
-  - Tapable.js:289 
-    [MAYGenerator.github.io]/[webpack]/[tapable]/lib/Tapable.js:289:11
-  
-  - Compilation.js:511 
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:511:11
-  
-  - Compilation.js:481 
-    [MAYGenerator.github.io]/[webpack]/lib/Compilation.js:481:14
-  
-  - task_queues.js:77 processTicksAndRejections
-    internal/process/task_queues.js:77:11
-  
-</pre><script type="text/javascript" src="/js/bundle.js"></script>
+<!doctype html> <html lang=en> <head> <meta charset=utf-8> <meta http-equiv=X-UA-Compatible content="IE=edge"> <meta name=viewport content="width=device-width,initial-scale=1"> <title>MAY Generator</title> <meta name=description content="The open-source Java library maygen."> <meta name=twitter:card content=summary> <meta name=twitter:site content=the_maygen> <meta name=twitter:title content="MAYGenerator - MAY Generator"> <meta name=twitter:description content="The open-source Java library maygen."> <meta name=twitter:image content=/img/logo.png> <meta property=og:site_name content="MAYGenerator - MAY Generator"/> <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]--> <link href="/css/app.css" rel="stylesheet"></head> <script async defer=defer src=https://buttons.github.io/buttons.js></script> <body> <div class=hidden-sm-down> <nav class="navbar navbar-expand-lg bg-custom navbar-transparent fixed-top navbar-light bg-faded" color-on-scroll=270> <a class=hidden-md-down href=https://github.com/MAYGenerator target=_blank><img style=position:absolute;top:0;right:0;border:0 src=https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67 alt="Fork me on GitHub" data-canonical-src=https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png> </a> <div class=container> <button class="navbar-toggler navbar-toggler-right" type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation"> <i class="fa fa-bars fa-1x"> </i> </button> <a class=navbar-brand href=/index.html> <img src=/img/logo-mono.png height=50> </a> <div class="collapse navbar-collapse justify-content-end" id=navbarSupportedContent> <ul class=navbar-nav> <li class=nav-item> <a class="nav-link scroll" target=about> ABOUT </a> </li> <li class=nav-item> <a class="nav-link scroll" target=license> LICENSE </a> </li> </ul> </div> </div> </nav> </div> <div class="page-header clear-filter vc"> <div class="container text-center content"> <div class="hidden-sm-down clearfix"> <img src=/img/logo.png height=120> </div> <h2>MAYGEN library</h2> <p> Open Source Java library </p> <p> <a target=about class="scroll btn btn-outline-success btn-white"> <i class="fa fa-play"></i> About </a> <span class=hidden-md-up> <br><br> </span> <a target=license class="scroll btn btn-outline-warning btn-white"> <i class="fa fa-download"></i> License </a> </p> </div> </div> <section class=white> <div id=about class=container> <div class=section-wrapper> <h5 class="text-center paragraph"> The <span class=text-primary>MAYGenerator Java library (MAYGEN)</span> is a Java library. </h5> <div class="row justify-content-center ccard"> <div class="col-md-12 col-sm-12 text-center"> <h2 id=introduction>Introduction</h2> <p>MAYGEN is an open source chemical structure generator based on the orderly graph generation method. The principles of this method were outlined in the <a href=https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00529-9>MAYGEN article</a>[1]. MAYGEN takes a molecular formula (such as C<sub>10</sub>H<sub>16</sub>O) as input and generates all constitutional isomers of this formula, i. e. all non-isomorphic molecules that can be constructed with the set of atoms in the input formula. For the case of C<sub>10</sub>H<sub>16</sub>O, for example, there are 452,458 non-identical molecules. Here are 12 out of those.</p> <p align=center> <img src=/img/C10H16O.png /> </p> <p>As can be seen from these examples, MAYGEN makes no assumptions on chemical stability. In particular in small ring systems, this may lead to unlikely structures, such as C=1C=C1. </p> <p>We benchmarked MAYGEN V.1.4 against the current state-of-the-art, but <a href=http://www.molgen.de>closed-source structure generator MOLGEN 5.0</a> from the University of Bayreuth as well as against the <a href=https://sourceforge.net/projects/pmgcoordination/ >Parallel Molecule Generator (PMG)</a>[2], the fastest available open source structure generator. Since PMG can be run in multi-threaded mode, the benchmark was performed in single-threaded mode for algorithmic comparability. For randomly selected 50 formulae, MAYGEN was in average 3 times slower than MOLGEN but 47 times faster than PMG. For some formulae, PMG could not generate isomers. These are shown by gaps on the its plot.</p> <p align=center> <img src=/img/Benchmarking.png /> </p> <h2 id=download-jar-file>Download jar File</h2> <p>Executable JAR files can be downloaded from <a href=https://github.com/MehmetAzizYirik/MAYGEN/releases>the release page</a></p> <h2 id=download-source-code>Download Source Code</h2> <p>You can download the source code as a ZIP file from the landing page of this repository. Alternatively, you can clone the repository using GIT. For more information <a href=https://help.github.com/articles/set-up-git/ >set-up-git</a></p> <p>To download MAYGEN source code:</p> <pre><code>$ git <span class=hljs-keyword>clone</span> <span class=hljs-title>https</span>://github.com/MehmetAzizYirik/MAYGEN.git
+</code></pre><h2 id=compiling>Compiling</h2> <p>To compile MAYGEN, Apache Maven and Java 1.8 (or later) are required.</p> <pre><code>MAYGEN/$ mvn <span class=hljs-class><span class=hljs-keyword>package</span></span>
+</code></pre><p>This command will create jar file named as &quot;MAYGEN-1.8&quot; under the target folder.</p> <h2 id=usage>Usage</h2> <p>MAYGEN-1.8.jar can be run from command line with the specified arguments. An example command is given below.</p> <p>The definitions of the arguments are given below:</p> <pre><code><span class=hljs-attribute>usage</span>: java -jar MAYGEN-1.8.jar [-f &lt;arg&gt;] [-fuzzy &lt;arg&gt;] [-v] [-t] [-o &lt;arg&gt;]
+
+<span class=livecodeserver>         [-setElements] [-m] [-smi] [-sdf] [-sdfCoord] [-h]
+
+Generates molecular structures <span class=hljs-keyword>for</span> <span class=hljs-keyword>a</span> given molecular formula.
+The input is <span class=hljs-keyword>a</span> molecular formula <span class=hljs-keyword>string</span>.
+
+For example <span class=hljs-string>'C2OH4'</span>.
+
+If user wants <span class=hljs-built_in>to</span> store output <span class=hljs-built_in>file</span> <span class=hljs-keyword>in</span> <span class=hljs-keyword>a</span> specific <span class=hljs-built_in>directory</span>, that is needed
+<span class=hljs-built_in>to</span> be specified. It is also possible <span class=hljs-built_in>to</span> generate SMILES instead <span class=hljs-keyword>of</span> <span class=hljs-keyword>an</span> SDF
+<span class=hljs-built_in>file</span>, but <span class=hljs-keyword>it</span> slows down <span class=hljs-keyword>the</span> generation <span class=hljs-built_in>time</span>. For this, use <span class=hljs-keyword>the</span> <span class=hljs-string>'-smi'</span>
+option.
+
+ -f,<span class=hljs-comment>--formula &lt;arg&gt;        formula</span>
+
+ -fuzzy,<span class=hljs-comment>--fuzzyFormula &lt;arg&gt;   fuzzy formula</span>
+
+ -setElements,<span class=hljs-comment>--settingElements   User defined element types and valences</span>
+
+ -v,<span class=hljs-comment>--verbose              print message</span>
+
+ -t,<span class=hljs-comment>--tsvoutput            Output formula, number of structures and</span>
+                           execution <span class=hljs-built_in>time</span> <span class=hljs-keyword>in</span> CSV <span class=hljs-built_in>format</span>. In multithread,
+                           <span class=hljs-keyword>the</span> <span class=hljs-number>4</span>th column <span class=hljs-keyword>in</span> <span class=hljs-keyword>the</span> output is <span class=hljs-keyword>the</span> <span class=hljs-built_in>number</span> <span class=hljs-keyword>of</span>
+                           threads.
+
+ -o,<span class=hljs-comment>--outputFile &lt;arg&gt;     Store output file</span>
+
+ -m,<span class=hljs-comment>--multithread          Use multi thread</span>
+
+ -smi,<span class=hljs-comment>--SMILES             Output in SMILES format</span>
+
+ -sdf,<span class=hljs-comment>--SDF                Output in SDF format</span>
+
+ -sdfCoord,<span class=hljs-comment>--coordinates   Output in SDF format with atom coordinates</span>
+
+ -h,<span class=hljs-comment>--help                 Displays help message</span>
+
+Please report issues <span class=hljs-keyword>at</span> <span class=hljs-keyword>https</span>://github.com/MehmetAzizYirik/MAYGEN</span>
+</code></pre><pre><code>java -jar MAYGEN-1.8.jar -f C2OH4 -v -t -o C:<span class=hljs-tag>\<span class=hljs-name>Users</span></span><span class=hljs-tag>\<span class=hljs-name>UserName</span></span><span class=hljs-tag>\<span class=hljs-name>Desktop</span></span><span class=hljs-tag>\<span class=hljs-name>
+</span></span>
+java -jar MAYGEN-1.8.jar -fuzzy C[2-5]O2H[4-8] -v -t -o C:<span class=hljs-tag>\<span class=hljs-name>Users</span></span><span class=hljs-tag>\<span class=hljs-name>UserName</span></span><span class=hljs-tag>\<span class=hljs-name>Desktop</span></span><span class=hljs-tag>\<span class=hljs-name>
+</span></span>
+java -jar MAYGEN-1.8.jar -f N(val=4)6H6 -setElements -v -t -o C:<span class=hljs-tag>\<span class=hljs-name>Users</span></span><span class=hljs-tag>\<span class=hljs-name>UserName</span></span><span class=hljs-tag>\<span class=hljs-name>Desktop</span></span><span class=hljs-tag>\</span>
+</code></pre><h2 id=license1>License</h2> <p>This project is licensed under the MIT License - see the <a href=https://github.com/MehmetAzizYirik/MAYGEN/blob/master/LICENSE>LICENSE.md</a> file for details</p> <h2 id=authors>Authors</h2> <ul> <li>Mehmet Aziz Yirik - <a href=https://github.com/MehmetAzizYirik>MehmetAzizYirik</a></li> </ul> <h2 id=acknowledgements>Acknowledgements</h2> <p><img src=https://camo.githubusercontent.com/97fa03cac759a772255b93c64ab1c9f76a103681/68747470733a2f2f7777772e796f75726b69742e636f6d2f696d616765732f796b6c6f676f2e706e67 alt=YourKit></p> <p>The developer uses YourKit to profile and optimise code.</p> <p>YourKit supports open source projects with its full-featured Java Profiler. YourKit, LLC is the creator of YourKit Java Profiler and YourKit .NET Profiler, innovative and intelligent tools for profiling Java and .NET applications.</p> <p><img src=/img/cdk.png alt=cdk></p> <p>This project relies on the Chemistry Development Project (CDK), hosted under <a href=http://cdk.github.io/ >CDK GitHub</a>. Please refer to these pages for updated information and the latest version of the CDK. CDK&#39;s API documentation is available though our <a href=http://cdk.github.io/cdk/ >Github site</a>.</p> <h2 id=references>References</h2> <p>1- Yirik, M.A., Sorokina, M. &amp; Steinbeck, C. MAYGEN: an open-source chemical structure generator for constitutional isomers based on the orderly generation principle. J Cheminform 13, 48 (2021). <a href=https://doi.org/10.1186/s13321-021-00529-9>https://doi.org/10.1186/s13321-021-00529-9</a></p> <p>2- Jaghoori MM, Jongmans SS, De Boer F, Peironcely J, Faulon JL, Reijmers T, Hankemeier T. PMG: multi-core metabolite identification. Electronic Notes in Theoretical Computer Science. 2013 Dec 25;299:53-60.</p> </div> <div class="hidden-md-up clearfix"> <br><br> </div> </div> </div> </div> </section> <section class=white> <div class=container> <div class="section-wrapper text-center"> <h2 id=license class="text-center text-primary"><i class="fa fa-legal"></i>&nbsp;License</h2> <p> <a target=_blank href=https://opensource.org/licenses/MIT>The MIT License</a>. </p> <div class="row justify-content-center"> <div class="col-md-8 text-center"> <p class=sub-paragraph> The MIT is compatible with other major open-source licenses. Since Java libraries are dynamically linked there is no restriction in using MAYGenerator in proprietary software (see the FSF's <a target=_blank href=https://opensource.org/licenses/MIT>MIT and Java</a>). Keep in mind that libraries that parts of the MAYGenerator depend on have their own licenses. </p> </div> </div> </div> </div> </section> <footer class=footer data-background-color=black> <div class=container> <div class="copyright text-center"> <a target=_blank href=https://github.com/MAYGenerator><i class="fa fa-github"></i> GitHub</a>&emsp; <a target=_blank href=https://twitter.com/MAYGenerator><i class="fa fa-twitter"></i> Twitter</a>&emsp; <a target=_blank href=https://plus.google.com/communities/106618079686730067623><i class="fa fa-google-plus"></i> Google Plus</a>&emsp; |&emsp; <span>2017&nbsp;©&nbsp;All rights reserved. </span> </div> </div> </footer> <script type="text/javascript" src="/js/bundle.c5663bb0204d966a2904.js"></script></body> </html> 
